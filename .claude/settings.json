@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Bash(git log*)",
+      "Bash(git blame*)",
+      "Bash(git diff*)",
+      "Bash(python*)",
+      "Bash(pytest*)"
+    ],
+    "deny": [
+      "Bash(rm -rf*)",
+      "Bash(git push*)",
+      "Bash(git reset --hard*)"
+    ]
+  }
+}
