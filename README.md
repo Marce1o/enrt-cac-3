@@ -212,8 +212,3 @@ python cli.py scan ../2/
 3. **Onboarding tool** — New team members run `drift scan` to find the README lies before they waste time believing them.
 4. **Refactoring prep** — Before touching a module, scan it for drift. Fix the comments and docstrings *first* so the refactor doesn't inherit stale documentation.
 5. **PR review augmentation** — AI assistant uses the MCP tools during review to flag: "This PR changes `validate_input()` but the comment on line 45 still describes the old behavior."
-
----
-
-*Keep it simple, useful, and real.*
-*If your team would actually use it — you nailed it.*
